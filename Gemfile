@@ -60,3 +60,5 @@ gem 'font-awesome-rails'
 gem 'devise'
 
 gem 'annotate'
+
+gem 'irbtools', require: 'irbtools/binding'
