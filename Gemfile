@@ -62,3 +62,7 @@ gem 'devise'
 gem 'annotate'
 
 gem 'irbtools', require: 'irbtools/binding'
+
+gem 'simple_form'
+
+gem 'bootstrap-wysihtml5-rails', github: 'nerian/bootstrap-wysihtml5-rails'
