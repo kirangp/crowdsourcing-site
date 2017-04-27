@@ -163,6 +163,15 @@ GEM
     orm_adapter (0.5.0)
     os (0.9.6)
     paint (1.0.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.0)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    pry-rails (0.3.4)
+      pry (>= 0.9.10)
     puma (3.8.2)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -209,6 +218,7 @@ GEM
     simple_form (3.4.0)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
+    slop (3.6.0)
     spoon (0.0.6)
       ffi
     spring (2.0.1)
@@ -266,6 +276,8 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   momentjs-rails
+  pry-byebug
+  pry-rails
   puma (~> 3.0)
   rails (~> 5.0.2)
   sass-rails (~> 5.0)
